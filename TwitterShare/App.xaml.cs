@@ -38,14 +38,14 @@ namespace TwitterShare
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-            this.UnhandledException += OnUnhandledException;
+            // this.UnhandledException += OnUnhandledException;
         }
 
-        private void OnUnhandledException(object sender, UnhandledExceptionEventArgs e)
+        /*private void OnUnhandledException(object sender, UnhandledExceptionEventArgs e)
         {
             if (System.Diagnostics.Debugger.IsAttached)
                 System.Diagnostics.Debugger.Break();
-        }
+        }*/
 
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points
