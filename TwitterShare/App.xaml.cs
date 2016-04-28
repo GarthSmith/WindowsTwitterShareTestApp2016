@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using CrittercismSDK;
 
 namespace TwitterShare
 {
@@ -22,6 +23,10 @@ namespace TwitterShare
     /// </summary>
     sealed partial class App : Application
     {
+#pragma warning disable 67
+        public new event UnhandledExceptionEventHandler UnhandledException;
+#pragma warning restore
+
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -87,6 +92,8 @@ namespace TwitterShare
                 // Ensure the current window is active
                 Window.Current.Activate();
             }
+
+            Crittercism.Init("26f34c59cb864793b73a20f4b200d69900555300");
         }
 
         /// <summary>
