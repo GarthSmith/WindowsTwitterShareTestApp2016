@@ -1,0 +1,5 @@
+MainPackage=C:\Users\10kTactics\Projects\TwitterShare\TwitterShare\bin\ARM\Release\Upload\TwitterShare_1.1.4.0_ARM.appx
+ResourcePack=C:\Users\10kTactics\Projects\TwitterShare\TwitterShare\_scale-100.appx
+ResourcePack=C:\Users\10kTactics\Projects\TwitterShare\TwitterShare\_scale-125.appx
+ResourcePack=C:\Users\10kTactics\Projects\TwitterShare\TwitterShare\_scale-150.appx
+ResourcePack=C:\Users\10kTactics\Projects\TwitterShare\TwitterShare\_scale-400.appx

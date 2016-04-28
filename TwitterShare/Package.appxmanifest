@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="4668910kTactics.WindowsTwitterShareTestApp2016" Publisher="CN=04B90994-BA76-4D26-B63D-2A51AABFFEE3" Version="1.1.4.0" />
+  <mp:PhoneIdentity PhoneProductId="4ab5ac49-a6b5-4b94-a5f4-96f4ffa36f5a" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>WindowsTwitterShareTestApp2016</DisplayName>
+    <PublisherDisplayName>10k Tactics</PublisherDisplayName>
+    <Logo>Assets\IconSet\50.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="TwitterShare.App">
+      <uap:VisualElements DisplayName="WindowsTwitterShareTestApp2016" Square150x150Logo="Assets\IconSet\150.png" Square44x44Logo="Assets\IconSet\44.png" Description="TwitterShare" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\IconSet\310x150.png" ShortName="Share Test" Square310x310Logo="Assets\IconSet\310.png" Square71x71Logo="Assets\IconSet\71.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\IconSet\620x300.png" BackgroundColor="#000000" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

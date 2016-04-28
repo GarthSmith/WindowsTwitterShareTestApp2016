@@ -1,0 +1,2 @@
+MainPackage=C:\Users\10kTactics\Projects\TwitterShare\TwitterShare\bin\x64\Release\TwitterShare_1.1.4.0_x64.appx
+SymbolPackage=C:\Users\10kTactics\Projects\TwitterShare\TwitterShare\AppPackages\TwitterShare_1.1.4.0_Test\TwitterShare_1.1.4.0_x64.appxsym
